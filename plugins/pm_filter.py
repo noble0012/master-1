@@ -435,16 +435,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Chat ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('📁 Channel 📁', url='https://t.me/+PMmG2WCxQXhmODU1'),
-            InlineKeyboardButton('About', callback_data='about')
+            InlineKeyboardButton('🗣️ Group', url='https://t.me/movieclub3131'),
+            InlineKeyboardButton('Onwer 👨‍💼', url='tg://user?id=5076893909')
+            ],[
+            InlineKeyboardButton('💞 YouTube', url='https://youtube.com/channel/UCOSQWQn6qIir3OZXbgqbM6g'),
+            InlineKeyboardButton('Channel 📢', url="https://t.me/+PMmG2WCxQXhmODU1")
             ],[
             InlineKeyboardButton('🔍 Search Movie Here 🔎', switch_inline_query_current_chat='')
-            ],[
-            InlineKeyboardButton('🏅 Owner 🏅', url='https://t.me/master_3136'),
-            InlineKeyboardButton('🎥 Group 🎥', url='https://t.me/movieclub3131')
-            ],[
-            InlineKeyboardButton('Close The Menu', callback_data='close_data')
-        ]]
+            ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
