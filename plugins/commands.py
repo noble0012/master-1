@@ -45,6 +45,9 @@ async def start(client, message):
             InlineKeyboardButton('💞 YouTube', url='https://youtube.com/channel/UCOSQWQn6qIir3OZXbgqbM6g'),
             InlineKeyboardButton('Channel 📢', url="https://t.me/+PMmG2WCxQXhmODU1")
             ],[
+            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('😊 About', callback_data='about')
+            ],[
             InlineKeyboardButton('🔍 Search Movie Here 🔎', switch_inline_query_current_chat='')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
