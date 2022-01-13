@@ -10,10 +10,10 @@ I have the following features. Tap the button in which you want help."""
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>Annabelle:</b>
-- Annabelle is a open source project made by <a href=https://t.me/vaishnavgr8>Vaishnav</a>. 
+- Annabelle is a open source project made by <a href=https://t.me/master_3136>爪卂丂ㄒ乇尺</a>. 
 - Source - <a href= https://github.com/Vaishnavofficial/Annabelle>Click here </a>
 <b>Support channel:</b>
-- <a href=https://t.me/Dianasupport>Team Diana</a>"""
+- <a href=https://t.me/+PMmG2WCxQXhmODU1>Update Channel</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Annabelle will respond whenever a keyword is found the message
