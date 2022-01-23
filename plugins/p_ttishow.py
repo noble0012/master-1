@@ -53,6 +53,8 @@ async def save_group(bot, message):
                     pass
             button=[[
              InlineKeyboardButton("👉 🎥 Press Me 🎥 👈", url="https://t.me/movieclub3131")
+             ],[
+             InlineKeyboardButton("❣️ Youtube Channel ❣️", url="https://youtube.com/channel/UCOSQWQn6qIir3OZXbgqbM6g")
              ]]
             temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}</b>\n\n👇Official Movie Group👇", reply_markup=InlineKeyboardMarkup(button))
 
